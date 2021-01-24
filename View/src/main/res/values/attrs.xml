@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimatedTextLogoView">
+        <attr name="text_logo" format="string" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <attr name="word_spacing" format="dimension" />
+    </declare-styleable>
+</resources>
