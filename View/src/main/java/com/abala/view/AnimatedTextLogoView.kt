@@ -134,8 +134,6 @@ class AnimatedTextLogoView @JvmOverloads constructor(
 
         mBlackFishPaint.color = Color.BLACK
         mWhiteFishPaint.color = Color.WHITE
-//        mBlackFishPaint.alpha = (OPAQUE * mTranslateProgress).toInt()
-//        mWhiteFishPaint.alpha = (OPAQUE * mTranslateProgress).toInt()
         //鱼身
         val taijiRect = RectF(-mTaijiRadius, -mTaijiRadius, mTaijiRadius, mTaijiRadius)
         canvas?.drawArc(taijiRect, 90F, 180F, true, mBlackFishPaint)
